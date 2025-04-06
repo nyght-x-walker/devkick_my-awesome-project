@@ -1,0 +1,25 @@
+[project]
+name = "devkick"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "nyht",email = "nyght_walker@proton.me"}
+]
+readme = "README.md"
+requires-python = "3.13.2"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry]
+packages = [{ include = "devkick" }]
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+pytest = "^8.3.5"
+coverage = "^7.8.0"
+
