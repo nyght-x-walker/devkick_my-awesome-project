@@ -3,7 +3,7 @@ name = "devkick"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "nyht",email = "nyght_walker@proton.me"}
+    {name = "Nyx"}
 ]
 readme = "README.md"
 requires-python = "3.13.2"
@@ -15,8 +15,9 @@ dependencies = [
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
 [tool.poetry]
-packages = [{ include = "devkick" }]
+packages = [{ include = "app" }]
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.1.0"
